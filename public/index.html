@@ -1,1379 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <!--[if IE]>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <![endif]-->
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <meta name="description" content="Barry’s Buns is a family owned bakery known for their sticky buns located in the heart of Chestnut Hill. We do not use preservatives, artificial flavors or colors.">
-      <meta name="author" content=""> 
-      <link rel="canonical" href="http://www.barrysbuns.com/">
-      <!-- Page title -->
-      <title>Barry's Buns - We Love Buns</title>
-      <!--[if lt IE 9]>
-      <script src="js/respond.js"></script>
-      <![endif]-->
-      <!-- Bootstrap Core CSS -->
-      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-      <!-- Icon fonts -->
-      <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <link href="fonts/flaticons/flaticon.css" rel="stylesheet" type="text/css">
-      <link href="fonts/glyphicons/bootstrap-glyphicons.css" rel="stylesheet" type="text/css">
-      <!-- Google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-      <!-- Style CSS -->
-      <link href="css/style.css" rel="stylesheet">
-      <!-- Color Style CSS -->
-      <link href="styles/sweet.css" rel="stylesheet">
-      <!-- CSS Plugins -->
-      <link rel="stylesheet" href="css/plugins.css">
-      <!-- Favicons-->
-      <link rel="shortcut icon" sizes="32x32" href="img/Barrys.png">
-      <!-- reCAPTCHA -->
-      <script src='https://www.google.com/recaptcha/api.js'></script>
-   </head>
-   <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-      <!-- Navbar -->
-      <nav class="navbar navbar-custom navbar-fixed-top"  id="navbar-custom">
-         <div class="container">
-            <!-- Logo and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand">
-               <i class="fa fa-bars"></i>
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Selena</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+
+<!-- MENU -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
                </button>
-               <!-- Logo -->
-               <div class="navbar-brand page-scroll">
-                  <a href="#page-top"><img src="img/barrys-buns_resized.png"  alt=""></a>
-               </div>
-            </div>
-            <!-- /.navbar-header -->
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-brand">
-               <ul class="nav navbar-nav page-scroll navbar-right">
-                  <li><a href="#page-top">Home</a></li>
-                  <li><a href="#about">About us</a></li>
-                  <li><a href="#menu">Menu</a></li>
-                  <li><a target="_blank" href="https://squareup.com/gift/D2GTEN1S5Q0Y1/order">Gift Cards</a></li>
-                  <!-- <li><a href="#fundraising">Fundraising</a></li> -->
-                  <li><a href="#contact">Contact</a></li>
+               <!-- lOGO -->
+               <a href="index.html" class="navbar-brand">Selena.</a>
+          </div>
+
+          <!-- MENU LINKS -->
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="about.html">Studio</a></li>
+                    <li><a href="team.html">Our People</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Get a quote</a></li>
                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-         </div>
-         <!-- /container -->
-      </nav>
-      <!-- /nav -->
-	  
-      <!-- Preloader -->
-      <div id="loading">
-         <div id="loading-center">
-            <div id="loading-center-absolute">
-               <div class="object-load" id="object_one"></div>
-               <div class="object-load" id="object_two"></div>
-               <div class="object-load" id="object_three"></div>
-            </div>
-         </div>
-      </div>
-      <!-- /preloader -->
-	  
-      <!-- Slider -->
-      <div class="slider-container">
-         <!-- Controls -->
-         <div class="slider-control left"></div>
-         <div class="slider-control right"></div>
-         <ul class="slider-pagi"></ul>
-         <!--Slider -->
-         <div class="slider">
-            <!-- Slide 0 -->
-            <div class="slide slide-0 active">
-               <!-- image -->
-               <div class="slide__bg"></div>
-               <div class="slide__content">
-                  <!-- SVG Overlay-->
-                  <svg version="1.1" class="slide__overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 294.996 294.996" style="enable-background:new 0 0 294.996 294.996;" xml:space="preserve">
-                     <path d="M280.977,118.478c-13.619-10.807-20.563-27.57-18.574-44.845c1.3-11.3-2.566-22.393-10.607-30.432
-                        c-8.044-8.043-19.136-11.909-30.434-10.607c-17.281,1.986-34.037-4.954-44.844-18.573C169.449,5.11,158.872,0,147.499,0
-                        c-11.374,0-21.951,5.11-29.021,14.02c-10.807,13.618-27.564,20.56-44.841,18.575c-11.3-1.305-22.393,2.563-30.435,10.605
-                        c-8.043,8.04-11.909,19.133-10.609,30.435c1.989,17.272-4.954,34.035-18.576,44.844C5.11,125.549,0,136.126,0,147.498
-                        s5.109,21.949,14.019,29.021c13.62,10.808,20.563,27.57,18.574,44.845c-1.3,11.3,2.566,22.393,10.607,30.432
-                        c8.044,8.043,19.145,11.911,30.434,10.607c17.274-1.988,34.037,4.954,44.844,18.573c7.069,8.91,17.646,14.021,29.021,14.021
-                        c11.373,0,21.95-5.11,29.02-14.02c10.808-13.618,27.565-20.559,44.841-18.575c11.301,1.299,22.393-2.563,30.435-10.605
-                        c8.043-8.04,11.909-19.133,10.609-30.434c-1.989-17.273,4.955-34.037,18.576-44.845c8.907-7.07,14.017-17.647,14.017-29.02
-                        S289.886,125.549,280.977,118.478z"/>
-                  </svg>
-                  <!--Title -->
-                  <div class="slide__text first-slide-box">
-                     <h1 class="hidden-sm hidden-xs first-slide-text"><span>Welcome to</span></h1>
-                     <div class="first-slide-logo"><img src="img/new-logo.png"/></div>
-                  </div>
-                  <!--/Slide__text -->
-               </div>
-               <!-- /Slide__content -->
-            </div>
-            <!-- /Slide -->
-            <!-- Slide 1 -->
-            <div class="slide slide-1">
-               <!-- image -->
-               <div class="slide__bg"></div>
-               <div class="slide__content">
-                  <!-- SVG Overlay-->
-                  <svg version="1.1" class="slide__overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 294.996 294.996" style="enable-background:new 0 0 294.996 294.996;" xml:space="preserve">
-                     <path d="M280.977,118.478c-13.619-10.807-20.563-27.57-18.574-44.845c1.3-11.3-2.566-22.393-10.607-30.432
-                        c-8.044-8.043-19.136-11.909-30.434-10.607c-17.281,1.986-34.037-4.954-44.844-18.573C169.449,5.11,158.872,0,147.499,0
-                        c-11.374,0-21.951,5.11-29.021,14.02c-10.807,13.618-27.564,20.56-44.841,18.575c-11.3-1.305-22.393,2.563-30.435,10.605
-                        c-8.043,8.04-11.909,19.133-10.609,30.435c1.989,17.272-4.954,34.035-18.576,44.844C5.11,125.549,0,136.126,0,147.498
-                        s5.109,21.949,14.019,29.021c13.62,10.808,20.563,27.57,18.574,44.845c-1.3,11.3,2.566,22.393,10.607,30.432
-                        c8.044,8.043,19.145,11.911,30.434,10.607c17.274-1.988,34.037,4.954,44.844,18.573c7.069,8.91,17.646,14.021,29.021,14.021
-                        c11.373,0,21.95-5.11,29.02-14.02c10.808-13.618,27.565-20.559,44.841-18.575c11.301,1.299,22.393-2.563,30.435-10.605
-                        c8.043-8.04,11.909-19.133,10.609-30.434c-1.989-17.273,4.955-34.037,18.576-44.845c8.907-7.07,14.017-17.647,14.017-29.02
-                        S289.886,125.549,280.977,118.478z"/>
-                  </svg>
-                  <!--Title -->
-                  <div class="slide__text">
-                     <h1><span>We Love</span><br>Buns</h1>
-                     <div class="hidden-xs hidden-sm">
-                        <p class="subtitle">We specialize in gourmet sticky buns<br>and cinnamon rolls.</p>
-                        <div class="page-scroll">
-                           <!-- Button -->
-                           <a class="btn" href="#menu">
-                              <div class="btn-line"></div>
-                              <div class="btn-line btn-line-shift"></div>
-                              Menu
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-                  <!--/Slide__text -->
-               </div>
-               <!-- /Slide__content -->
-            </div>
-            <!-- /Slide -->
-            <!-- Slide 2 -->
-            <div class="slide slide-2">
-               <!-- image -->
-               <div class="slide__bg"></div>
-               <div class="slide__content">
-                  <!-- SVG Overlay-->
-                  <svg version="1.1" class="slide__overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 294.996 294.996" style="enable-background:new 0 0 294.996 294.996;" xml:space="preserve">
-                     <path d="M280.977,118.478c-13.619-10.807-20.563-27.57-18.574-44.845c1.3-11.3-2.566-22.393-10.607-30.432
-                        c-8.044-8.043-19.136-11.909-30.434-10.607c-17.281,1.986-34.037-4.954-44.844-18.573C169.449,5.11,158.872,0,147.499,0
-                        c-11.374,0-21.951,5.11-29.021,14.02c-10.807,13.618-27.564,20.56-44.841,18.575c-11.3-1.305-22.393,2.563-30.435,10.605
-                        c-8.043,8.04-11.909,19.133-10.609,30.435c1.989,17.272-4.954,34.035-18.576,44.844C5.11,125.549,0,136.126,0,147.498
-                        s5.109,21.949,14.019,29.021c13.62,10.808,20.563,27.57,18.574,44.845c-1.3,11.3,2.566,22.393,10.607,30.432
-                        c8.044,8.043,19.145,11.911,30.434,10.607c17.274-1.988,34.037,4.954,44.844,18.573c7.069,8.91,17.646,14.021,29.021,14.021
-                        c11.373,0,21.95-5.11,29.02-14.02c10.808-13.618,27.565-20.559,44.841-18.575c11.301,1.299,22.393-2.563,30.435-10.605
-                        c8.043-8.04,11.909-19.133,10.609-30.434c-1.989-17.273,4.955-34.037,18.576-44.845c8.907-7.07,14.017-17.647,14.017-29.02
-                        S289.886,125.549,280.977,118.478z"/>
-                  </svg>
-                  <!--Title -->
-                  <div class="slide__text">
-                     <h1><span>Try our other</span><br>Baked Goods</h1>
-                     <div class="hidden-xs hidden-sm">
-                        <p class="subtitle">Sticky bun bread pudding, crumb cake, tea cookies, brownies, liege waffles, german butter cake, and more!</p>
-                        <div class="page-scroll">
-                           <!-- Button -->
-                           <a class="btn" href="#menu">
-                              <div class="btn-line"></div>
-                              <div class="btn-line btn-line-shift"></div>
-                              Menu
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-                  <!--/Slide__text -->
-               </div>
-               <!-- /Slide__content -->
-            </div>
-            <!-- /Slide -->
-            <!-- Slide 3 -->
-            <div class="slide slide-3">
-               <!-- image -->
-               <div class="slide__bg"></div>
-               <div class="slide__content">
-                  <!-- SVG Overlay-->
-                  <svg version="1.1" class="slide__overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 294.996 294.996" style="enable-background:new 0 0 294.996 294.996;" xml:space="preserve">
-                     <path d="M280.977,118.478c-13.619-10.807-20.563-27.57-18.574-44.845c1.3-11.3-2.566-22.393-10.607-30.432
-                        c-8.044-8.043-19.136-11.909-30.434-10.607c-17.281,1.986-34.037-4.954-44.844-18.573C169.449,5.11,158.872,0,147.499,0
-                        c-11.374,0-21.951,5.11-29.021,14.02c-10.807,13.618-27.564,20.56-44.841,18.575c-11.3-1.305-22.393,2.563-30.435,10.605
-                        c-8.043,8.04-11.909,19.133-10.609,30.435c1.989,17.272-4.954,34.035-18.576,44.844C5.11,125.549,0,136.126,0,147.498
-                        s5.109,21.949,14.019,29.021c13.62,10.808,20.563,27.57,18.574,44.845c-1.3,11.3,2.566,22.393,10.607,30.432
-                        c8.044,8.043,19.145,11.911,30.434,10.607c17.274-1.988,34.037,4.954,44.844,18.573c7.069,8.91,17.646,14.021,29.021,14.021
-                        c11.373,0,21.95-5.11,29.02-14.02c10.808-13.618,27.565-20.559,44.841-18.575c11.301,1.299,22.393-2.563,30.435-10.605
-                        c8.043-8.04,11.909-19.133,10.609-30.434c-1.989-17.273,4.955-34.037,18.576-44.845c8.907-7.07,14.017-17.647,14.017-29.02
-                        S289.886,125.549,280.977,118.478z"/>
-                  </svg>
-                  <!--Title -->
-                  <div class="slide__text">
-                     <h1><span>We are</span><br>Au-Naturale</h1>
-                     <div class="hidden-xs hidden-sm">
-                        <p class="subtitle">There are no preservatives, artificial flavors,<br>or colors in any of our tasty baked goods!<br>Nothing fake in these buns!</p>
-                        <div class="page-scroll">
-                           <!-- Button -->
-                           <a class="btn" href="#about">
-                              <div class="btn-line"></div>
-                              <div class="btn-line btn-line-shift"></div>
-                              About us
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-                  <!--/Slide__text -->
-               </div>
-               <!-- /Slide__content -->
-            </div>
-            <!-- /Slide -->
-         </div>
-         <!-- /Slider -->
-      </div>
-      <!-- /slider -->
+          </div>
 
-	   <!-- Section offer -->  
-      <section id="offer" class="color-section">
-         <div class="container">
-            <div class="col-md-6 col-md-offset-3 text-center package">
-               <h4>Seasonal Items</h4>
-               <p>Follow us on Facebook &amp; Instagram for the latest seasonal flavors of our sticky buns and other seasonal, tasty baked goods.</p>
-               <div class="social-media">
-                  <a href="https://www.facebook.com/barrysbuns" title=""><i class="fa fa-facebook"></i></a>
-                  <a href="https://www.instagram.com/barrysbuns" title=""><i class="fa fa-instagram"></i></a>
-               </div>
-
-            </div>
-         <!-- /col-md-6 -->
-         </div>
-         <!--  container -->
-      </section>
-      <!-- / section -->
-
-	  
-      <!-- Section About --> 
-      <section id="about" class="color-section2">
-         <div class="container">
-            <!-- Section Heading -->
-            <div class="section-heading">
-               <h2>About Us</h2>
-               <img src="img/bun-icon-hr.svg"/>
-            </div>
-                      
-            <!-- Text -->
-            <div class="row">
-               <!-- image -->
-                  <div class="aboutus-img-lrg polaroid hidden-xs hidden-sm col-md-4 col-lg-4">
-                     <img src="img/joel_jen_v3.jpg" class="img-responsive center-block" />
-                  </div>
-                  <div class="hidden-md hidden-lg aboutus-img-container">
-                     <img src="img/circle_jen_joel.jpg" alt="" class="img-circle aboutus-img-sml"/>
-                  </div>
-
-               <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 box">
-                  <p>Barry’s Buns is a family owned business operated by Joel (aka Barry) and his wife, Jen. Joel utilizes his expertise in the kitchen and heads up recipe development and production, while Jen handles all marketing, brand development, event planning, and business administration.</p>
-
-                  <p>Joel was born a baker. He started his own cheesecake business when he was 14 years old. During high school, he took first place in a culinary competition winning a scholarship from Careers Through Culinary Arts Program (C-CAP) to attend Johnson &amp; Wales University in Rhode Island. Joel graduated with a degree in Pastry Arts and was most recently the Regional Bakery Associate Coordinator of Whole Foods Market for the Mid-Atlantic Region. His formal career in pastry began at the Pennsylvania Convention Center and was also the Assistant Pastry Chef at The Rittenhouse Hotel under Executive Chef Jean Marie LaCroix.</p>
-
-                  <p>It has always been a lifelong goal for Joel to have his own place and sticky buns have always been a favorite of Joel’s since childhood. His fondest childhood memory is that of his dad regularly bringing home sticky buns for the family. Additionally, his dad, for many years before his recent passing, had his own business in a farmer&#39;s style market. Joel loved the atmosphere and helping his dad take care of the customers, so when the opportunity arose for a location within the MARKET at the Fareway (2017 Best of Philly Food Destination) in the Chestnut Hill neighborhood of Philadelphia, it was a sign that now is the time for Joel to open his own bakery.</p>
-
-               </div>
-               <!-- /col-lg-8 -->
-
-               </div>
-            <!-- /row -->
-            <div id="owl-icons" class="owl-carousel features-icon">
-               <div class="col-sm-12">
-                  <!-- item1 -->
-                  <div class="media text-center about-us-icons">
-                     <img src="img/bun-icon.svg">
-                     <div class="media-body">
-                        <h5>Au Naturale</h5>
-                        <p>We do not use any preservatives, artificial flavors or colors in any of our tasty baked goods. There is nothing fake in these buns!</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-12">
-                  <!-- item2 -->
-                  <div class="media text-center">
-                     <i class="flaticon-electric-mixer"></i>
-                     <div class="media-body">
-                        <h5>Made With Love</h5>
-                        <p>Our tasty baked goods are crafted by a pastry chef with 20 years in the industry. A Johnson &amp; Wales University alumnus who has worked at the Pennsylvania Convention Center, the Rittenhouse Hotel, and oversaw 20 bakeries for Whole Foods Market in the Mid-Atlantic Region.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-12">
-                  <!-- item3 -->
-                  <div class="media text-center">
-                     <i class="flaticon-food-5"></i>
-                     <div class="media-body">
-                        <h5>Catering</h5>
-                        <p>Our buns love to party so let us cater your next event whether it be breakfast meetings, brunches, desserts, a waffle station, or platters. The catering ideas are endless! </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-12">
-                  <!-- item4 -->
-                  <div class="media text-center about-us-icons">
-                     <img src="img/waffle-icon.svg">
-                     <div class="media-body">
-                        <h5>Liege Waffles</h5>
-                        <p>A richer, denser, sweeter, and chewier waffle that is the most common waffle available in Belgium. An adaptation of brioche bread dough with chunks of pearl sugar.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-12">
-                  <!-- item5 -->
-                  <div class="media text-center">
-                     <i class="flaticon-gingerbread"></i>
-                     <div class="media-body">
-                        <h5>Seasonal Pastries</h5>
-                        <p>Barry likes to change it up every now and then so we offer fun and exciting items throughout the year that compliment the seasons. You will not be disappointed with what we come up with!</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--/container-->
-
-      </section>
-	  <!--/section -->
-	  
-      <!-- Section testimonials --> 
-      <section id="testimonials" class="color-section">
-         <div class="container">
-            <!-- Section Heading -->
-            <div class="section-heading">
-               <h2>What Our Customers Say</h2>
-               <!-- <img src="img/bun-icon-hr.svg"/> -->
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <!-- Carousel -->
-                  <div id="owl-testimonial" class="owl-carousel">
-                  
-                     <!-- Testimonial 1 -->
-                     <div class="testimonial">
-                        <div class="testimonial-pic">
-                        </div>
-                        <div class="testimonial-content">
-                           <p class="description">
-                              "I have been to Belgium four times and your waffles are spot on! That is a difficult thing to perfect but you have! I will be back again and again."
-                           </p>
-                           <h3 class="testimonial-title">Anonymous</h3>
-                           <small class="post">/ Square Customer Review</small>
-                        </div>
-                     </div>
-                     <!-- Testimonial 2 -->
-                     <div class="testimonial">
-                        <div class="testimonial-pic">
-                        </div>
-                        <div class="testimonial-content">
-                           <p class="description">
-                              "Possibly the best coffee cake I've ever had---a perfect ratio of cake-crumble. The owners are delightful and I'm so happy to see them doing so well at the market."
-                           </p>
-                           <h3 class="testimonial-title">Megan Gallagher</h3>
-                           <small class="post">/ Facebook</small>
-                        </div>
-                     </div>
-                     <!-- Testimonial 3 -->
-                     <div class="testimonial">
-                        <div class="testimonial-pic">
-                        </div>
-                        <div class="testimonial-content">
-                           <p class="description">
-                              “His sticky buns are absolutely incredible. Soft, sweet, and perfect to share. My favorite is the plain with cream cheese frosting.”
-                           </p>
-                           <h3 class="testimonial-title">Amanda B.</h3>
-                           <small class="post">/ Yelp Review</small>
-                        </div>
-                     </div>
-                     <!-- Testimonial 4 -->
-                     <div class="testimonial">
-                        <div class="testimonial-pic">
-                        </div>
-                        <div class="testimonial-content">
-                           <p class="description">
-                              "Possibly the best cinnamon buns in the city."
-                           </p>
-                           <h3 class="testimonial-title">Morgan Knives</h3>
-                           <small class="post">/ Square Customer Review</small>
-                        </div>
-                     </div>
-                     <!-- Testimonial 5 -->
-                     <div class="testimonial">
-                        <div class="testimonial-pic">
-                        </div>
-                        <div class="testimonial-content">
-                           <p class="description">
-                              "Decided to pop in and pick up some 'buns' for my family...WOW, these exceeded any expectations! The special was a 'Irish potato' bun that was out of this world and GENIUS! Excellent bakery and will be back.”
-                           </p>
-                           <h3 class="testimonial-title">Anna Bud Fontenot</h3>
-                           <small class="post">/ Facebook</small>
-                        </div>
-                     </div>
-                     <!-- Testimonial 6 -->
-                     <div class="testimonial">
-                        <div class="testimonial-pic">
-                        </div>
-                        <div class="testimonial-content">
-                           <p class="description">
-                              “The BEST sticky buns and bread pudding you will ever have!”
-                           </p>
-                           <h3 class="testimonial-title">Samantha Grannum</h3>
-                           <small class="post">/ Facebook</small>
-                        </div>
-                     </div>
-                     <!-- Testimonial 7 -->
-                     <div class="testimonial">
-                        <div class="testimonial-pic">
-                        </div>
-                        <div class="testimonial-content">
-                           <p class="description">
-                              “Cinnamon babka bread was out of this world, excellent.”
-                           </p>
-                           <h3 class="testimonial-title">Roland Lees</h3>
-                           <small class="post">/ Facebook</small>
-                        </div>
-                     </div>
-                  </div>
-                  <!--/owl-testimonials -->
-               </div>
-               <!-- /col-md-12-->
-            </div>
-            <!--/row --> 
-            <!-- Button -->
-               <div class="page-scroll align-center yelp-btn">
-                  <a class="btn" target="_blank" href="https://www.yelp.com/biz/barrys-buns-philadelphia">
-                     <div class="btn-line"></div>
-                     <div class="btn-line btn-line-shift"></div>
-                     Find Us On Yelp
-                  </a>
-               </div>
-         </div>
-         <!--/container --> 
-      </section>
-	  <!--/section-->
-
-	  
-      <!-- Section Promo -->	
-      <section id="promo">
-         <div class="container">
-            <div class="col-md-8 col-sm-6 col-centered box">
-               <h4>We are happy to accommodate the needs of your function.<br>Breakfast meetings, brunches, desserts, waffle station, platters - the catering ideas are endless!</h4>
-               <!-- Button -->
-               <div class="page-scroll align-center">
-                  <a class="btn " href="#contact">
-                     <div class="btn-line"></div>
-                     <div class="btn-line btn-line-shift"></div>
-                     Contact Us
-                  </a>
-               </div>
-            </div>
-            <!-- /col-md-6 -->
-         </div>
-         <!-- /.container -->
-      </section>
-      <!-- / section-->
-
-	  
-
-      <!-- Section Menu --> 
-      <section id="menu" class="color-section2">
-         <div class="container">
-            <!-- Section heading -->
-            <div class="section-heading">
-               <h2>Our Menu</h2>
-               <img src="img/bun-icon-hr.svg"/>
-            </div>
-            <div class="col-md-12 no-padding">
-               <div class="col-md-12 no-padding">
-                  <!-- required for floating -->
-                  <!-- Nav tabs -->
-                  <ul class="nav nav-tabs">
-                     <li class="active"><a href="#tab1" data-toggle="tab">Our Buns</a></li>
-                     <li><a class="" href="#tab2" data-toggle="tab">Tasty Baked Goods</a></li>
-                     <li><a class="" href="#tab3" data-toggle="tab">Barry's Waffles</a></li>
-                     <li><a class="" href="#tab4" data-toggle="tab">Bars & Cookies</a></li>
-                     <li><a class="" href="#tab5" data-toggle="tab">Platters & Catering</a></li>
-                  </ul>
-               </div>
-               <div class="col-md-12 no-padding">
-                  <!-- Tab panes -->
-                  <div class="tab-content box">
-                     <div class="tab-pane active in fade" id="tab1">
-                        <div class="row">
-                           <!-- Menu: Cakes-->
-                           <h3>Our Buns</h3>
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="polaroid">
-                                 <p>Sticky Buns</p>
-                                 <img src="img/butter_beer_buns_1.jpg" alt="" class="img-responsive center-block" />
-                              </div>
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                     <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Barry’s Signature<br>Cream Cheese Icing
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A wonderfully creamy frosting made up of butter, cream cheese, sugar, and vanilla whipped to perfection.  Not too sweet but packed with flavor.  Perfect addition to any of our baked goods or to eat by itself (we won’t judge!).
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->                            
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->   
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Sticky Buns
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A sweet yeasted dough rolled with brown sugar and cinnamon filling topped with our signature glaze (smear). <b>Barry’s flavors are</b>: Walnut-Raisin, Plain, Cream Cheese Icing, Walnut, Apple Crumb, Raisin, and Seasonal. 
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Sticky Bun Bread Pudding
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Now this is the best of both worlds - Barry’s sticky buns and bread pudding! Bite size pieces of our sticky buns in a rich custard baked to a golden-brown perfection. No wonder it is a best seller!
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Mini Cinnamon Rolls
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A sweet yeasted dough rolled with brown sugar and cinnamon then topped with a sugar glaze.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Cinnamon Roll Bites
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Four petite cinnamon rolls in a “grab and go container” served with our signature cream cheese icing for dipping.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Large Cinnamon Rolls
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A sweet yeasted dough rolled with brown sugar and cinnamon filling then iced with our signature cream cheese icing. 
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->
-                        </div>
-                        <!-- /.row -->
-                        <p class="col-md-12">Menu and prices are subject to change without notice.</p>  
-                     </div>
-                     <!-- /#tab1 -->
-                     <div class="tab-pane fade" id="tab2">
-                        <div class="row">
-                           <!-- Menu: Pastries-->
-                           <h3>Tasty Baked Goods</h3>
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="polaroid">
-                                 <p>German Butter Cake</p>
-                                 <img src="img/butter_cake_1.jpg" alt="" class="img-responsive center-block" />
-                              </div>
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Butter Cake
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                         This cake is not always easy to find but we have it! It is made with a sweet yeasted dough crust and topped with a sweet buttery vanilla filling, which makes a gooey center. Served in an 8-inch square pan.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->   
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Crumb Cake Slice
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A dense and moist cake smothered with lots of streusel (crumb) topping. The extra crumb topping outweighs the cake! We offer the traditional flavor crumb cake and a seasonal flavor.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Babka Loaf
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A dense sweet bread that’s swirled with chocolate or cinnamon and topped with nuggets of our signature streusel and glazed with either icing or chocolate.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Jewish Apple Cake
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A moist cinnamon cake layered with cinnamon, sugar, and apples. You are missing out if you have not tried this cake!
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Chocolate Chip Pound Cake
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A dense vanilla cake with chocolate chips throughout and comes by the slice or a whole bundt cake.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->                                                                          
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->              
-                        </div>
-                        <!-- /.row -->
-                        <p class="col-md-12">Menu and prices are subject to change without notice.</p>
-                     </div>
-                     <!-- /tab-pane -->
-                     <div class="tab-pane fade" id="tab3">
-                        <div class="row">
-                           <!-- Menu: Sweets-->
-                           <h3>Barry's Waffles</h3>
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="polaroid">
-                                 <p>The StrawBARRY&trade;</p>
-                                 <img src="img/liege-menu.jpg" alt="" class="img-responsive center-block" />
-                              </div>
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          The StrawBARRY&trade;
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle topped with strawberries, drizzled with a strawberry jam sauce, and topped with powdered sugar.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Banana Nutella
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle topped with bananas, drizzled with Nutella, and topped with powdered sugar.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Caramel Apple Crumb
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle topped with our delicious apple filling, crumb topping, and drizzled with Dulce de Leche.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          The Ultimate B.F.A. Waffle&trade;
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle, a sticky bun, and a scoop of Zsa’s Vanilla Ice Cream stacked and topped with your choice of sauce.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->                             
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->   
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Plain Liege Waffle
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A richer, denser, sweeter, and chewier waffle that is the most common waffle available in Belgium. An adaptation of brioche bread dough with chunks of pearl sugar.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Chocolate Dipped
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle half dipped in chocolate and topped with powdered sugar.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Waffle A La Mode
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle topped with a scoop of Zsa’s Vanilla Ice Cream.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends --> 
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          How We Roll
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A cinnamon roll waffle smothered in our signature cream cheese icing.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Nutty Banana
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle layered with banana slices and drizzled with peanut butter.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->                             
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Gimme S’more
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A plain liege waffle topped with marshmallow fluff, chocolate chips, and crushed graham crackers finished with a drizzle of chocolate sauce.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    
-                                                                                                              
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->              
-                        </div>
-                        <!-- /.row -->
-                        <p class="col-md-12">Menu and prices are subject to change without notice.</p>
-                     </div>
-                     <!-- /tab-pane -->
-                     <div class="tab-pane fade" id="tab4">
-                        <div class="row">
-                           <!-- Menu: Sweets-->
-                           <h3>Bars & Cookies</h3>
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="polaroid">
-                                 <p>Tea Cookies</p>
-                                 <img src="img/cookies_on_ped_1.jpg" alt="" class="img-responsive center-block" />
-                              </div>
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Tea Cookies
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Chocolate Florentine, Stroop Waffle, Raspberry Filled Shortbread, Chocolate Filled Shortbread, Checkerboard Cookies, Chocolate Chunk Fudge Filled, Peanut Butter Fudge Filled, Candy Cookie, Cranberry Pistachio Biscotti, Chocolate Chip Biscotti, Bar, Mini Chocolate Chip Cookies, and more! Call bakery for complete list. 
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Large Chocolate Chip Cookie
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          This is your traditional chocolate chip cookie except Barry's is overloaded with mini chocolate chip morsels.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Brownie
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A thick brownie slice that is chocolatey and extra fudgy!
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Blondie
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Think chocolate chip cookie in a brownie form and by that we mean it resembles a traditional brownie but the cocoa is substituted with vanilla and has chocolate chips throughout.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Raspberry Oat Bar
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Decadent oatmeal cookie bars sandwiched with raspberry jam in the middle.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->              
-                        </div>
-                        <!-- /.row -->
-                        <p class="col-md-12">Menu and prices are subject to change without notice.</p>
-                  </div>
-                  <!-- /tab-content-->
-                  <div class="tab-pane" id="tab5">
-                        <div class="row">
-                           <h3>Platters & Catering</h3>
-                           <!-- column -->
-                           <div class="col-md-6">
-                           
-                           <div class="polaroid">
-                              <p>Mini Sampler Platter</p>
-                              <img src="img/platters-catering-menu.jpg" alt="" class="img-responsive center-block" />
-                           </div>
-                           
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    
-                                    <!-- Item starts -->
-                                    <div class="menu-item ">
-                                       <div class="menu-item-name">
-                                          Assorted Tea Cookie Platter
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A one and half pound assortment of our fresh baked tea cookies.  Serves approximately 8-10 people
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Tea Cookie & Bar Platter
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A 10-inch platter filled with a selection of our tea cookies, brownies, blondies, and raspberry oat bars. Serves approximately 10-12 
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Mini Sampler Platter
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          An assortment of our mini sticky buns and cinnamon rolls served with a tub of our signature cream cheese icing. Serves 25-30
-                                       </div>
-                                    </div>
-                                    <!-- Item ends --> 
-                                                            
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Bun Platter & Crumb Cake Platter
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          An assortment of our mini sticky buns, cinnamon rolls, and crumb cake served with a tub of our signature cream cheese icing.  Serves 25-30 
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->   
-                           <!-- column -->
-                           <div class="col-md-6">
-                              <div class="menu-body">
-                                 <div class="menu-section">
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Crumb Cake 1/8 Sheet
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          A dense and moist cake smothered with lots of streusel (crumb) topping. The extra crumb topping outweighs the cake! We offer the traditional flavor crumb cake and a seasonal flavor.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Sticky Bun Bread Pudding Family Style 
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Now this is the best of both worlds - Barry’s sticky buns and bread pudding! Bite size pieces of our sticky buns in a rich custard baked to a golden-brown perfection. No wonder it is a best seller! Serves 12-15
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                     <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Sticky Bun Tier Cake
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Our sticky buns tiered in as many desired tiers and iced with our signature cream cheese icing.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Customized Cake
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Have a cake that you would like Barry to make? No problem, talk to us! We will try to accommodate any request whether it is a large cookie cake, birthday cake, or tiered cake.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Liege Waffle Station
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Let us bring our liege waffle iron to your event for some made to order waffles! The possibilities are endless but sure to be the highlight!
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          Customize a Platter
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          We can customize a platter however you like! The possibilities are endless.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends -->
-                                    <!-- Item starts -->
-                                    <div class="menu-item">
-                                       <div class="menu-item-name">
-                                          On Site Catering
-                                       </div>
-                                       <div class="menu-item-price">
-                                       </div>
-                                       <div class="menu-item-description">
-                                          Having an event and want to offer something other than the usual? Talk to us!  We are happy to accommodate the needs of your function and the catering ideas are endless - breakfast meetings, brunches, dessert table, and even weddings.
-                                       </div>
-                                    </div>
-                                    <!-- Item ends --> 
-                                 </div>
-                                 <!--/ menu section -->
-                              </div>
-                              <!-- / menu body -->
-                           </div>
-                           <!-- /col-md-6 -->              
-                        </div>
-                        <!-- /.row -->
-                        <p class="col-md-12">Menu and prices are subject to change without notice.</p>
-                     </div>
-                     <!-- /#tab5 -->
-               </div>
-               <!-- /col-md-10 -->  
-            </div>
-            <!-- /.row --> 
-         </div>
-         <!-- /container -->  
-      </section>
-      <!-- /Section -->
+     </div>
+</div>
 
 
+<!-- HOME -->
+<section id="home">
+     <div class="container">
+          <div class="row">
 
-      <!-- Section Newsletter-->
-      <section id="newsletter" class="color-section" data-0="background-position:0px -40px;" data-end="background-position:690.798px -10px">
-         <div class="container">
-            <div class="col-lg-7 pull-left">
-               <h3>Sign-up to receive our newsletter</h3>
-            </div>
-            <div class="col-lg-5 pull-right">
-               <!-- Begin MailChimp Signup Form -->
-                  <div id="mc_embed_signup">
-                     <form action="//barrysbuns.us14.list-manage.com/subscribe/post?u=e1333bca0c4365d1505d42f1f&amp;id=d3fd8c326a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                         <div class="mc-field-group">
-                           <div class="input-group">
-                           <input class="form-control input-lg required email" type="email" name="EMAIL" class="form-control form-control__input user-signup__email" pattern="/^[a-zA-Z0-9+-_]+(\.[_a-zA-Z0-9+]+)*@[a-zA-Z0-9+-_]+(\.[a-zA-Z0-9+-_]+)*(\.[a-zA-Z]+)$/" placeholder="Email" aria-required="true" required="required">
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e1333bca0c4365d1505d42f1f_d3fd8c326a" tabindex="-1" value=""></div>
-                            <div class="input-group-btn subscription-btn">
-                               <div class="btn" id="mc-embedded-subscribe">
-                                  <div class="btn-line"></div>
-                                  <div class="btn-line btn-line-shift"></div>
-                                  <button type="submit" value="send" class="submit user-signup__submit button btn" id="mc-embedded-subscribe">Submit</button>
-                               </div>
-                            </div>
+               <div class="col-md-6 col-sm-10">
+                    <h5>Say Hello To Selena...</h5>
+                    <h2>We are problem-solvers on the lookout for something that matters.</h2>
+                    <ul class="section-btn">
+                         <a href="project.html"><span data-hover="Check Projects">Check Projects</span></a>
+                    </ul>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- PROJECT -->
+<section id="project">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <!-- SECTION TITLE -->
+                    <div class="section-title">
+                         <h1>Featured Projects</h1>
+                    </div>
+               </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <!-- PROJECT ITEM -->
+                         <div class="project-item">
+                              <a href="project-detail.html">
+                                   <img src="images/project-image1.jpg" class="img-responsive" alt="">
+                              </a>
                          </div>
-                         <!-- Subscription results -->
-                           <div id="mce-responses" class="mailchimp">
-                              <div class="alert alert-danger response" id="mce-error-response"></div>
-                              <div class="alert alert-success response" id="mce-success-response"></div>
-                           </div>
+                         <div class="project-overlay">
+                              <h4>Graphic Design</h4>
+                              <h3>Banana Noolab</h3>
                          </div>
-                       </div>
-                     </form>
-                  </div>
-                  <!--End mc_embed_signup-->       
-            </div>
-            <!-- /col-ms-5 -->
-         </div>
-         <!-- /.container -->
-      </section>
-      <!-- / section-->
+                    </div>
 
-     <!-- Wholesale Section // we removed for now to revist this section in the future-->
-      <!-- <section id="wholesale"></section> -->
-      <!-- <section id="fundraising"></section> -->
-	   
-      <!-- Section Contact -->
-      <section id="contact">
-         <div class="container">
-            <div class="row">
-               <!-- Section heading -->
-               <div class="section-heading">
-                  <h2>Contact Us</h2>
-                  <img src="img/bun-icon-hr.svg"/>
+                    <div class="col-md-4 col-sm-4">
+                         <!-- PROJECT ITEM -->
+                         <div class="project-item">
+                              <a href="project-detail.html">
+                                   <img src="images/project-image2.jpg" class="img-responsive" alt="">
+                              </a>
+                         </div>
+                         <div class="project-overlay">
+                              <h4>Photoshop Mockup</h4>
+                              <h3>Apple Magic Store</h3>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <!-- PROJECT ITEM -->
+                         <div class="project-item">
+                              <a href="project-detail.html">
+                                   <img src="images/project-image3.jpg" class="img-responsive" alt="">
+                              </a>
+                         </div>
+                         <div class="project-overlay">
+                              <h4>Visual Idenity</h4>
+                              <h3>Orange Juice</h3>
+                         </div>
+                    </div>                
+
+          </div>
+     </div>
+</section>
+
+
+<!-- CONTACT INFO -->
+<section id="contact-info">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <h1>We make brands look great on the web. Ready to work with us? <a href="contact.html">Let's talk</a></h1>
                </div>
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-            <!-- Contact Form -->
-                  <div class="form-style" id="contact_form">
-                     <p>Please complete the form below for information regarding wholesale, fundraising or for any questions or comments.  We will get back to you as soon as possible. </p>
-                     <!-- Contact results -->
-                     <div id="contact_results"></div>
-                     <!-- Form Starts -->
-                     <form action="https://formcarry.com/s/SJqHnJ-ef" class="form-group" id="contactform" method="POST" accept-charset="UTF-8">
-                        <input type="text" name="name" class="form-control input-field" placeholder="Name" required="">                    
-                        <input type="email" name="email" class="form-control input-field" placeholder="Email" required="">           
-                        <input type="tel" name="phone" class="form-control input-field" placeholder="Phone Number" required="">           
-                        <input type="text" name="subject" class="form-control input-field" placeholder="Subject">                                          
-                        <textarea name="message" id="message" class="textarea-field form-control" rows="4" placeholder="Enter your message" required=""></textarea>
-                        <!-- Honeypot -->
-                        <input type="text" name="_gotcha" style="display:none" />
-                        <!-- Button -->
-                        <button type="submit" value="send" class="btn">
-                           <div class="btn-line"></div>
-                           <div class="btn-line btn-line-shift"></div>
-                           Send Message
-                        </button>
-                     </form>
-                  </div>
-                  <div class="text-left timetable res-margin box first-time">
-                  <!-- Sign-->
-                  <h5 class="align-center">Store Hours</h5>
-                  <!-- Table-->
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 store-hours-columns">
-                  <table class="table">
-                     <h6 class="store-hour-titles">@ The Market at the Fareway</h6>
-                     <tbody>
-                        <tr>
-                           <td class="text-left">Sunday – Wednesday:</td>
-                           <td class="text-right">CLOSED</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Thursday & Friday:</td>
-                           <td class="text-right">9am - 6pm</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Saturday:</td>
-                           <td class="text-right">8am - 5pm</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 store-hours-columns">
-                  <h6 class="store-hour-titles">@ The Bourse Marketplace</h6>
-                  <p>These are the current soft opening hours. Hours to be extended in the near future with the official Grand Opening of the Bourse Marketplace.</p>
-                  <table class="table">
-                     <tbody>
-                        <tr>
-                           <td class="text-left">Monday – Friday:</td>
-                           <td class="text-right">7:30 am to 6 pm</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Saturday:</td>
-                           <td class="text-right">7:30 am to 5 pm</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Sunday:</td>
-                           <td class="text-right">9 am to 5 pm</td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  </div>
-                  <p><b>Market at the Fareway:</b> We are proud to be one of the vendors that makes the MARKET a 2017 Best of Philly Food Destination! Our address is Germantown Avenue; however, the MARKET is not directly on Germantown Avenue; it is directly behind the Chestnut Hill Hotel. There is a free parking lot on Southampton Avenue (across from Jenks John S School).</p>
-                  <p><b>Bourse Marketplace:</b> We are located in the new food hall within the historic Bourse building, which has been fully restored.  We are stall #27 and are right across from Marino Brothers Cheese Steaks. There is a parking garage right next to the Bourse building and if you are lucky there is metered parking surrounding the area (free on Sundays!). </p>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-8 col-sm-7">
+                    <div class="footer-copyright">
+                         <p>© Selena. All Rights Reserved. <span>|</span> Tel - <a href="tel:00122042343">+(001) 40 782 6539</a> <span>|</span> Email - <a href="mailto:youremail@gmail.com">hello@selena-design.co</a></p>
+                    </div>
                </div>
-                  <ul class="contact-info align-center">
-                     <li><i class="fa fa-map-marker"></i><a target="_blank" href="https://www.google.com/maps/place/Philadelphia+Bourse,+111+S+Independence+Mall+E,+Philadelphia,+PA+19106/@39.9497563,-75.150251,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c8847d39a96d:0x82388afdda4c3e28!8m2!3d39.9497563!4d-75.1480623">111 S. Independence Mall East, Philadelphia, PA</a></li>
-                     <li><i class="fa fa-map-marker"></i><a target="_blank" href="https://www.google.com/maps/place/Philadelphia+Bourse,+111+S+Independence+Mall+E,+Philadelphia,+PA+19106/@39.9497563,-75.150251,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c8847d39a96d:0x82388afdda4c3e28!8m2!3d39.9497563!4d-75.1480623">8221 Germantown Avenue, Philadelphia, PA</a></li><br>
-                     <li><i class="fa fa-phone"></i>267-521-BUNS</li>
-                     <li><i class="fa fa-envelope"></i>BarrysBuns@gmail.com</li>
-                  </ul>
-                  <!--/Contact_form -->
-               </div>
-               <!-- / col-lg-7-->
-               <div class="col-lg-5 col-md-5 polaroid hidden-sm hidden-xs">
-                  <p>Market @ The Fareway<br>"2017 Best of Philly Food Destination"</p>
-                  <img src="img/bakery_3.jpg">
-               </div>
-               <div class="col-lg-5 col-md-5 polaroid hidden-sm hidden-xs polaroid-contact-2">
-                  <p>The Bourse Marketplace</p>
-                  <img src="img/bourse-pic.jpg">
+
+               <div class="col-md-4 col-sm-5">
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-instagram"></a></li>
+                    </ul>
                </div>
                
-               
-            </div>
-            <!--/row -->            
-         </div>
-         <!-- /container-->
-      </section>
-      <!-- / section-->
-      <!-- Footer -->
-      <footer class="color-section">
-         <div class="container">
-            <!-- social media and logo -->
-            <div class="row">
-               <!-- social-icons -->	
-               <div class="social-media">
-                  <!-- <a href="#" title=""><i class="fa fa-twitter"></i></a> -->
-                  <a href="https://www.facebook.com/barrysbuns" title=""><i class="fa fa-facebook"></i></a>
-                  <!-- <a href="#" title=""><i class="fa fa-linkedin"></i></a> -->
-                  <!-- <a href="#" title=""><i class="fa fa-pinterest"></i></a> -->
-                  <a href="https://www.instagram.com/barrysbuns" title=""><i class="fa fa-instagram"></i></a>
-               </div>
-            </div>
-            <!-- /row -->
-            <div class="row margin-footer">
-               <!-- about -->
-               <div class="col-lg-4 col-md-4 text-left">
-                  <h6 class="store-hour-titles">Have a Catering Event?</h6>
-                  <p>Our current hours do not apply to any catering event. Talk to us as we are happy to accommodate the requested day and time of your event if possible.</p>
-               </div>
-               <!-- /col-lg-4 -->  			
-               <!-- Opening Hours -->
-               <div class="col-lg-4 col-md-4 text-left timetable res-margin">
-                  <!-- Sign-->
-                  <h6 class="store-hour-titles">@ The Market at the Fareway</h6>
-                  <!-- Table-->
-                  <table class="table">
-                     <tbody>
-                        <tr>
-                           <td class="text-left">Sunday – Wednesday:</td>
-                           <td class="text-right">CLOSED</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Thursday – Friday:</td>
-                           <td class="text-right">9 am to 6 pm</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Saturday:</td>
-                           <td class="text-right">8 am to 5 pm</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-               <div class="col-lg-4 col-md-4 text-left timetable res-margin">
-                  <!-- Sign-->
-                  <h6 class="store-hour-titles">@ The Bourse Marketplace</h6>
-                  <!-- Table-->
-                  <table class="table">
-                     <tbody>
-                        <tr>
-                           <td class="text-left">Monday – Friday:</td>
-                           <td class="text-right">7:30 am to 6 pm</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Saturday:</td>
-                           <td class="text-right">7:30 am to 5 pm</td>
-                        </tr>
-                        <tr>
-                           <td class="text-left">Sunday:</td>
-                           <td class="text-right">9 am to 5 pm</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-               <!-- /col-lg-4 -->
-               <div class="col-md-12 text-center">
-                  <p>Copyright © 2018 - Designed by  <a href="http://www.ingridkuhn.com">Ingrid Kuhn</a> and Jessica Cornell</p>
-                  <!-- /container -->
-                  <!-- Go To Top Link -->
-                  <div class="page-scroll hidden-sm hidden-xs">
-                     <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-                  </div>
-               </div>
-               <!-- /col-md-12 -->
-            </div>
-            <!-- /row -->
-         </div>
-         <!-- /container -->
-      </footer>
-      <!-- /footer -->
-	  
-      <!-- Core JavaScript Files -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <!-- Main Js -->
-      <script src="js/main.js"></script>
-      <!--Mail Chimp validator -->
-      <script src="js/mc-validate.js"></script>
-      <!--Other Plugins -->
-      <script src="js/plugins.js"></script>
-      <!-- Prefix free CSS -->
-      <script src="js/prefixfree.js"></script>	  
-      <!-- Slider -->
-      <script src="js/slider.js"></script>  	  
-   </body>
+          </div>
+     </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
 </html>
