@@ -792,7 +792,7 @@ footer {
   }
 
   #home {
-    height: 65vh;
+    padding: 120px 0;
   }
 
   #project-detail .col-md-6 img {
