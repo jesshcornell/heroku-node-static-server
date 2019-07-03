@@ -314,9 +314,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  height: 85vh;
-  position: relative;
-  padding-top: 150px;
+  padding: 120px 0;
 }
 
 
@@ -792,7 +790,7 @@ footer {
   }
 
   #home {
-    padding: 120px 0;
+    height: 65vh;
   }
 
   #project-detail .col-md-6 img {
